@@ -13,6 +13,15 @@
 		34EBE011271F08E2005CC9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE00F271F08E2005CC9EB /* Main.storyboard */; };
 		34EBE013271F08E3005CC9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE012271F08E3005CC9EB /* Assets.xcassets */; };
 		34EBE01E271F0910005CC9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */; };
+		4FA1BD4127453AAF00D5D4DC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 4FA1BD4027453AAF00D5D4DC /* SwiftSoup */; };
+		4FA1BD452745495200D5D4DC /* XwdtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD442745495200D5D4DC /* XwdtTableViewController.swift */; };
+		4FA1BD4B2745555400D5D4DC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD4A2745555400D5D4DC /* ListTableViewCell.swift */; };
+		4FA1BD4D2745578300D5D4DC /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD4C2745578300D5D4DC /* ListItem.swift */; };
+		4FA1BD4F2746264800D5D4DC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD4E2746264800D5D4DC /* WebViewController.swift */; };
+		4FA1BD5127462B7500D5D4DC /* TzggTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD5027462B7500D5D4DC /* TzggTableViewController.swift */; };
+		4FA1BD5327462E6500D5D4DC /* WlyxqkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD5227462E6500D5D4DC /* WlyxqkTableViewController.swift */; };
+		4FA1BD5527462F4400D5D4DC /* AqtgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD5427462F4400D5D4DC /* AqtgTableViewController.swift */; };
+		4FA1BD572746433D00D5D4DC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BD562746433D00D5D4DC /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,14 @@
 		34EBE012271F08E3005CC9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EBE017271F08E3005CC9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA1BD442745495200D5D4DC /* XwdtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XwdtTableViewController.swift; sourceTree = "<group>"; };
+		4FA1BD4A2745555400D5D4DC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		4FA1BD4C2745578300D5D4DC /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		4FA1BD4E2746264800D5D4DC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4FA1BD5027462B7500D5D4DC /* TzggTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TzggTableViewController.swift; sourceTree = "<group>"; };
+		4FA1BD5227462E6500D5D4DC /* WlyxqkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WlyxqkTableViewController.swift; sourceTree = "<group>"; };
+		4FA1BD5427462F4400D5D4DC /* AqtgTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqtgTableViewController.swift; sourceTree = "<group>"; };
+		4FA1BD562746433D00D5D4DC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA1BD4127453AAF00D5D4DC /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +78,14 @@
 				34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */,
 				34EBE00D271F08E2005CC9EB /* ViewController.swift */,
 				34EBE00F271F08E2005CC9EB /* Main.storyboard */,
+				4FA1BD562746433D00D5D4DC /* AboutViewController.swift */,
+				4FA1BD5427462F4400D5D4DC /* AqtgTableViewController.swift */,
+				4FA1BD5227462E6500D5D4DC /* WlyxqkTableViewController.swift */,
+				4FA1BD442745495200D5D4DC /* XwdtTableViewController.swift */,
+				4FA1BD5027462B7500D5D4DC /* TzggTableViewController.swift */,
+				4FA1BD4E2746264800D5D4DC /* WebViewController.swift */,
+				4FA1BD4C2745578300D5D4DC /* ListItem.swift */,
+				4FA1BD4A2745555400D5D4DC /* ListTableViewCell.swift */,
 				34EBE012271F08E3005CC9EB /* Assets.xcassets */,
 				34EBE017271F08E3005CC9EB /* Info.plist */,
 				34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */,
@@ -83,6 +109,9 @@
 			dependencies = (
 			);
 			name = ITSC;
+			packageProductDependencies = (
+				4FA1BD4027453AAF00D5D4DC /* SwiftSoup */,
+			);
 			productName = ITSC;
 			productReference = 34EBE006271F08E2005CC9EB /* ITSC.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,9 @@
 				Base,
 			);
 			mainGroup = 34EBDFFD271F08E2005CC9EB;
+			packageReferences = (
+				4FA1BD3F27453AAF00D5D4DC /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 34EBE007271F08E2005CC9EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA1BD5527462F4400D5D4DC /* AqtgTableViewController.swift in Sources */,
 				34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */,
+				4FA1BD572746433D00D5D4DC /* AboutViewController.swift in Sources */,
 				34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */,
+				4FA1BD452745495200D5D4DC /* XwdtTableViewController.swift in Sources */,
+				4FA1BD5127462B7500D5D4DC /* TzggTableViewController.swift in Sources */,
+				4FA1BD4B2745555400D5D4DC /* ListTableViewCell.swift in Sources */,
+				4FA1BD4F2746264800D5D4DC /* WebViewController.swift in Sources */,
 				34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */,
+				4FA1BD5327462E6500D5D4DC /* WlyxqkTableViewController.swift in Sources */,
+				4FA1BD4D2745578300D5D4DC /* ListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +390,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FA1BD3F27453AAF00D5D4DC /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FA1BD4027453AAF00D5D4DC /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FA1BD3F27453AAF00D5D4DC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34EBDFFE271F08E2005CC9EB /* Project object */;
 }
